@@ -74,13 +74,8 @@ docker-compose up --build
 ---
 
 ### **3.2. Архитектура проекта**  
-```mermaid
-graph TD
-    A[Telegram Bot] --> B[AIogram]
-    B --> C[PostgreSQL]
-    B --> D[APScheduler]
-    D --> E[Уведомления]
-```
+![изображение](https://github.com/user-attachments/assets/f723ddce-a842-4a1e-a134-deb018b0a73d)
+
 
 ---
 
@@ -160,13 +155,15 @@ async def add_task(message: Message, state: FSMContext):
 
 ## **5. Иллюстрации**  
 ### **5.1. Схема работы бота**  
-![Architecture](https://i.imgur.com/xyz123.png)  
+![изображение](https://github.com/user-attachments/assets/518e6c35-7239-413e-8cc0-dc45a6031ab2)
 
-### **5.2. Пример интерфейса**  
-![Bot UI](https://i.imgur.com/abc456.png)  
 
-### **5.3. Диаграмма базы данных**  
-![DB Schema](https://i.imgur.com/def789.png)  
+### **5.2. Интерфейс пользователя**  
+ 
+
+### **5.3. ER-диаграмма базы данных**  
+![изображение](https://github.com/user-attachments/assets/c85815eb-f92f-44cd-81c3-17135c8e8eab)
+
 
 ---
 
