@@ -385,7 +385,7 @@
     margin-bottom: 30px;
 }
 .text_news1 h2{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 15px;
 }
 
@@ -394,22 +394,15 @@
     margin-bottom: 30px;
 }
 
-.img_news1 {
-    position: relative;
-}
-
 .img {
     border-radius: 8px;
-    position: absolute; /*  Позволяет накладывать изображения друг на друга */
 }
 
 .img1_news1 {
-    width: 450px; /*  Фиксированная ширина */
-    height: 350px;
+    width: 400px; /*  Фиксированная ширина */
+    height: 550px;
+    margin: 70px;
     position: absolute;
-    top: 40px;
-    left: 40px;
-    z-index: 1; /*  Определяет порядок наложения (выше) */
 }
 
 .img2_news1 {
@@ -441,7 +434,7 @@
 }
 
 .text_news2 h2{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 15px;
 }
 
@@ -480,6 +473,47 @@
     min-height: 100vh; 
     background-color: #81A18A;
     position: relative; 
+}
+
+.text_news3 {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.text_news3 h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.text_news3 p{
+    font-size: 22px;
+}
+
+.img_news3 {
+    position: relative;
+}
+
+.img {
+    border-radius: 8px;
+    position: absolute; /*  Позволяет накладывать изображения друг на друга */
+}
+
+.img1_news3 {
+    width: 500px; /*  Фиксированная ширина */
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1; /*  Определяет порядок наложения (выше) */
+}
+
+.img2_news3 {
+    width: 500px; /*  Фиксированная ширина */
+    height: 350px;
+    position: absolute;
+    top: 300px; /*  Смещение второго изображения вниз */
+    left: 200px; /*  Смещение второго изображения вправо */
+    z-index: 2; /*  Определяет порядок наложения (ниже) */
 }
 
 .resources {
@@ -521,11 +555,11 @@
 }
 
 .text_resources {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 26px;
     margin: 20px; 
 }
 
-.text_resources a{
-    margin-bottom: 15px;
+.text_resources a {
+    display: block; 
+    margin-bottom: 40px;
 }
