@@ -95,6 +95,7 @@ docker-compose up --build
 | `/start` | Приветствие и список команд. |  
 | `/add_task` | Добавить новую задачу. |  
 | `/my_tasks` | Список активных задач. |  
+| `/completed_tasks` | Список выполненных задач. |  
 
 #### **Пример кода (роутер бота)**  
 ```python
@@ -103,7 +104,8 @@ async def start(message: Message):
     await message.answer(
         "Добро пожаловать! Используйте команды:\n"
         "/add_task - Добавить задачу\n"
-        "/my_tasks - Мои задачи"
+        "/my_tasks - Мои активные задачи\n"
+        "/completed_tasks - Выполненные задачи"
     )
 ```
 
